@@ -1,4 +1,4 @@
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/{owner}/{repo}/badge)](https://securityscorecards.dev/viewer/?uri=github.com/AlvinAtThales/sratool)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/AlvinAtThales/sratool/badge)](https://securityscorecards.dev/viewer/?uri=github.com/AlvinAtThales/sratool)
 
 DISCONTINUATION OF PROJECT
 
