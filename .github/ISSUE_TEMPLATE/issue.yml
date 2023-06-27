@@ -9,14 +9,15 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+  - type: textarea
+    id: issue-description 
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Issue Description
+      description: Describe the issue encountered
+      placeholder: Tell us what you see!
+      # value: "A bug happened!"
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
