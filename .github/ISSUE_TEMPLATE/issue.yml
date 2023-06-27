@@ -19,6 +19,15 @@ body:
     validations:
       required: true
   - type: textarea
+    id: duplicate-steps
+    attributes:
+      label: Duplicate Steps 
+      description: Describe the actions that triggered the issue
+      placeholder: Tell us what you did!
+      # value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
     id: expected-results
     attributes:
       label: Expected Results
@@ -28,13 +37,12 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: version-detected
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Version Detected
+      description: What version of SRA tool are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 1.0.1 (Default)
     validations:
       required: true
   - type: dropdown
