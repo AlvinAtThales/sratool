@@ -64,8 +64,8 @@ body:
         - Major
         - Minor
         - Trivial
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: root-cause
     attributes:
@@ -77,6 +77,6 @@ body:
         - Coding
         - Configuration
         - Documentation
-      validations:
-        required: true
+    validations:
+      required: true
 
