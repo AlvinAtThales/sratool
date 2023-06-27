@@ -64,12 +64,17 @@ body:
         - Major
         - Minor
         - Trivial
-  - type: textarea
-    id: logs
+  - type: dropdown
+    id: root-cause
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: What could have caused the issue?
+      multiple: true
+      options:
+        - Requirements
+        - Design
+        - Coding
+        - Configuration
+        - Documentation
   - type: checkboxes
     id: terms
     attributes:
