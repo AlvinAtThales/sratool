@@ -21,11 +21,10 @@ body:
     id: duplicate-steps
     attributes:
       label: Duplicate Steps 
-      description: Describe the actions that triggered the issue
+      description: How to reproduce the issue
       placeholder: Tell us what you did!
 
-    validations:
-      required: true
+
   - type: textarea
     id: expected-results
     attributes:
